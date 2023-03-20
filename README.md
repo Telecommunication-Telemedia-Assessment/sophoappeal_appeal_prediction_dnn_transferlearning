@@ -1,0 +1,2 @@
+# sophoappeal_appeal_prediction_dnn_transferlearning
+DNN transfer learning experiment for appeal prediction for sophoappeal

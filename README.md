@@ -13,6 +13,10 @@ This repository is part of the DFG project [Sophoappeal (437543412)](https://www
 * python3, python3-pip, git, imagemagick, wget
 * jupyterlab with scikit-learn, tensorflow
 
+## Scripts
+
+* all `retrain_XYZ.py` scripts are for the retraining of a specific DNN.
+* `check_results.ipynb` is a script to evaluate the prediction performance.
 
 ## Acknowledgments
 

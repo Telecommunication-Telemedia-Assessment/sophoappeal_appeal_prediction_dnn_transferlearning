@@ -212,9 +212,11 @@ def main(args):
         "prediction": predictions
     })
     print(dr.corr())
-    dr.to_csv(modelname + "_predictions.csv", index=False)
+    os.makedirs("results", exist_ok=True)
+
+    dr.to_csv("results/" + modelname + "_predictions.csv", index=False)
     ax = dr.plot(x="truth", y="prediction", kind="scatter")
-    ax.get_figure().savefig(modelname + "_scatter_retrain.pdf")
+    ax.get_figure().savefig("results/" + modelname + "_scatter_retrain.pdf")
 
     print(max(predictions), min(predictions))
     print("Model:{}, P:{}, K:{}, S:{}".format(

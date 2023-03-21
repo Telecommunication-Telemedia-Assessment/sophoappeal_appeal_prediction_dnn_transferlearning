@@ -17,6 +17,8 @@ This repository is part of the DFG project [Sophoappeal (437543412)](https://www
 
 * all `retrain_XYZ.py` scripts are for the retraining of a specific DNN.
 * `check_results.ipynb` is a script to evaluate the prediction performance.
+* `deeper_retrain_inception_v3.py` is a variant of the retraining script to also consider more layers of the Inception V3 model.
+
 
 ## Acknowledgments
 
